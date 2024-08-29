@@ -6,10 +6,6 @@ P
 ^
 .src/main/java/org/tdesh/screen/MainWindow.java,1\0\107dd985eaf1249a4545e17cc745955751e28709
 ^
-.src/main/java/org/tdesh/screen/TestWindow.java,1\0\1049a48400db93488a6e325b2d43b18739bea396
-^
-.src/main/java/org/tdesh/screen/TestWindow.form,4\0\402e8a34fdb1dc0bb89377b0798fb6e7c262b0f3
-^
 .src/main/java/org/tdesh/panels/IndexPanel.java,3\f\3fc888fdf37ee6b1a7e4d2436c5bc0a52e6f4be5
 f
 6src/main/java/org/tdesh/panels/LeftNavigatorPanel.java,6\1\6160d19166958c0b643f246ecff092c4b7f36ab8

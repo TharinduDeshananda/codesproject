@@ -17,6 +17,13 @@ public class MainWindow extends JFrame {
 
     private  MainWindow(){
         super("main-window");
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e ){
+            e.printStackTrace();
+        }
+
         JFrame frame = new JFrame();
         this.setSize(800,600);
         this.setTitle("Code Generator");
