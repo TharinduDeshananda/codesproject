@@ -25,10 +25,10 @@ public class MainWindow extends JFrame {
         }
 
         JFrame frame = new JFrame();
-        this.setSize(800,600);
+        this.setSize(1024,768);
         this.setTitle("Code Generator");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setResizable(false);
+        this.setResizable(true);
         URL resource = ClassLoader.getSystemResource("images/noimg.png");
         ImageIcon topIcon = new ImageIcon(resource);
         this.setIconImage(topIcon.getImage());
