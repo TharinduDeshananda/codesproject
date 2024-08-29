@@ -6,6 +6,7 @@ import org.tdesh.util.MainWindowRoutes;
 import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
+import java.util.Arrays;
 
 public class MainWindow extends JFrame {
 
@@ -17,11 +18,11 @@ public class MainWindow extends JFrame {
 
     private  MainWindow(){
         super("main-window");
-
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception e ){
             e.printStackTrace();
+
         }
 
         JFrame frame = new JFrame();
